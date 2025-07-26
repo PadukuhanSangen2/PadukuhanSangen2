@@ -323,18 +323,16 @@ const ProfilDesa = () => {
       </h2>
     </AnimatedSection>
 
-
         {/* Gambar Peta */}
         <AnimatedSection
           animation="scale-in"
           delay={0.5}
-          className="w-full bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center"
-          style={{ minHeight: '400px' }}
+          className="w-full rounded-2xl overflow-hidden shadow-xl p-0"
         >
           <img
             src="/images/profildesa/petapadukuhansangen2.png"
             alt="Peta Padukuhan Sangen 2"
-            className="max-h-full max-w-full object-contain"
+            className="w-full h-auto object-cover"
             onError={(e) => {
               e.target.style.display = 'none';
               e.target.nextSibling.style.display = 'flex';
@@ -342,8 +340,8 @@ const ProfilDesa = () => {
           />
           <div className="w-full h-full flex items-center justify-center" style={{ display: 'none' }}>
             <div className="text-center space-y-4">
-              <div className="text-8xl animate-bounce">🗺️</div>
-              <p className="text-gray-700 font-semibold text-xl">Foto Peta Sangen 2</p>
+              <div className="text-6xl sm:text-8xl animate-bounce">🗺️</div>
+              <p className="text-gray-700 font-semibold text-lg sm:text-xl">Foto Peta Sangen 2</p>
             </div>
           </div>
         </AnimatedSection>
