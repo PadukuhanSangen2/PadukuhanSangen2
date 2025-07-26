@@ -314,34 +314,41 @@ const ProfilDesa = () => {
         </div>
       </section>
 
-      {/* Peta Sangen 2 */}
-      <section className="py-16 lg:py-20">
-        <div className="container mx-auto px-4 max-w-7xl">
-          <AnimatedSection animation="fade-in" className="text-center mb-16">
-            <h2 className="heading-lg mb-4">
-              Peta <span className="text-gradient"> Padukuhan Sangen 2</span>
-            </h2>
-          </AnimatedSection>
+{/* Peta Sangen 2 */}
+<section className="py-16 lg:py-20">
+  <div className="container mx-auto px-4 max-w-7xl">
+    <AnimatedSection animation="fade-in" className="text-center mb-16">
+      <h2 className="heading-lg mb-4">
+        Peta <span className="text-gradient"> Padukuhan Sangen 2</span>
+      </h2>
+    </AnimatedSection>
 
-          <AnimatedSection animation="scale-in" delay={0.3} className="w-full aspect-video bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl overflow-hidden shadow-2xl">
-            <img
-              src="/src/images/profildesa/legenda-sangen2.jpg"
-              alt="Legenda Sangen 2"
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'flex';
-              }}
-            />
-            <div className="w-full h-full flex items-center justify-center" style={{ display: 'none' }}>
-              <div className="text-center space-y-4">
-                <div className="text-8xl animate-bounce">📜</div>
-                <p className="text-gray-700 font-semibold text-xl">Foto Legenda Sangen 2</p>
-              </div>
+
+        {/* Gambar Peta */}
+        <AnimatedSection
+          animation="scale-in"
+          delay={0.5}
+          className="w-full bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center"
+          style={{ minHeight: '400px' }}
+        >
+          <img
+            src="/images/profildesa/petapadukuhansangen2.png"
+            alt="Peta Padukuhan Sangen 2"
+            className="max-h-full max-w-full object-contain"
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.nextSibling.style.display = 'flex';
+            }}
+          />
+          <div className="w-full h-full flex items-center justify-center" style={{ display: 'none' }}>
+            <div className="text-center space-y-4">
+              <div className="text-8xl animate-bounce">🗺️</div>
+              <p className="text-gray-700 font-semibold text-xl">Foto Peta Sangen 2</p>
             </div>
-          </AnimatedSection>
-        </div>
-      </section>
+          </div>
+        </AnimatedSection>
+      </div>
+    </section>
     </div>
   );
 };
