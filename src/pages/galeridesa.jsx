@@ -274,6 +274,12 @@ const GaleriDesa = () => {
     },
     {
       src: '/images/galeridesa/balailagi.png'
+    },
+    {
+      src: '/images/galeridesa/patungjesus.jpeg'
+    },
+    {
+      src: '/images/galeridesa/senamibu2.jpeg'
     }
   ];
 

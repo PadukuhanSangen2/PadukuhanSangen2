@@ -274,7 +274,7 @@ const KegiatanKKN = () => {
     {
       src: '/images/kegiatankkn/individuinfor1.JPG',
       title: 'Proker Individu: Pelatihan Pengolahan Data',
-      description: 'Bersama karang taruna belajar mengolah data menggunakan aplikasi cloud'
+      description: 'Bersama karang taruna belajar aplikasi cloud'
     },
     {
       src: '/images/kegiatankkn/eng2.JPG',
@@ -299,12 +299,12 @@ const KegiatanKKN = () => {
     {
       src: '/images/kegiatankkn/individuinfor2.JPG',
       title: 'Proker Individu: Pelatihan Canva',
-      description: 'Belajar mengenal canva kepada anak Sangen 2'
+      description: 'Belajar mengenal Canva kepada anak Sangen 2'
     },
     {
       src: '/images/kegiatankkn/kunjumkm.JPG',
       title: 'Kunjungan ke Salah Satu UMKM di Sangen 2',
-      description: 'Silahturahmi besama Pak Sukiyan'
+      description: 'Silahturahmi bersama Pak Sukiyan'
     },
     {
       src: '/images/kegiatankkn/individuteksip.JPG',
@@ -320,6 +320,11 @@ const KegiatanKKN = () => {
       src: '/images/kegiatankkn/eng3.JPG',
       title: 'Bimbel Bahasa Inggris Week 3',
       description: 'Belajar bagian tubuh dalam Bahasa Inggris'
+    },
+    {
+      src: '/images/kegiatankkn/warkopmakdian.jpeg',
+      title: 'Membuat Banner UMKM',
+      description: 'Banner UMKM Warung Kopi Mak Dian'
     }
   ];
 
@@ -370,7 +375,7 @@ const KegiatanKKN = () => {
 
           <AnimatedSection animation="scale-in" delay={0.3} className="w-full aspect-video bg-gradient-to-br from-accent-100 to-primary-100 rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="/images/foto-kelompok-kkn.jpg"
+              src="/images/kegiatankkn/kknfull.jpeg"
               alt="Foto Kelompok KKN Sangen 2"
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -378,12 +383,6 @@ const KegiatanKKN = () => {
                 e.target.nextSibling.style.display = 'flex';
               }}
             />
-            <div className="w-full h-full flex items-center justify-center" style={{ display: 'none' }}>
-              <div className="text-center space-y-4">
-                <div className="text-8xl animate-bounce">👥</div>
-                <p className="text-gray-700 font-semibold text-xl">Foto Kelompok KKN Sangen 2</p>
-              </div>
-            </div>
           </AnimatedSection>
         </div>
       </section>
