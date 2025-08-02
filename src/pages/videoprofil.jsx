@@ -121,7 +121,7 @@ const getYouTubeEmbedUrl = (url) => {
 
 const VideoProfil = () => {
   // URL YouTube Video
-  const youtubeVideoUrl = "https://youtu.be/5LgFuPKB_S0?si=MGskaeEJy0ft7Wfd";
+  const youtubeVideoUrl = "https://youtu.be/fp4GNHuZdQs";
   
   const embedUrl = getYouTubeEmbedUrl(youtubeVideoUrl);
 
